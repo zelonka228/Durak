@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class Table
 {
     public List<(Card attack, Card defense)> Pairs = new();
-    public List<Card> DiscardPile = new(); // отбой
+    public List<Card> DiscardPile = new();
 
     public void AddAttack(Card card)
     {
